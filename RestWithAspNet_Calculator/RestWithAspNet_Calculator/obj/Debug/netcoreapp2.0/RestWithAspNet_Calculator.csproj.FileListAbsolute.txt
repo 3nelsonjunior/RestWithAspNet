@@ -1,0 +1,11 @@
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\bin\Debug\netcoreapp2.0\RestWithAspNet_Calculator.deps.json
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\bin\Debug\netcoreapp2.0\RestWithAspNet_Calculator.runtimeconfig.json
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\bin\Debug\netcoreapp2.0\RestWithAspNet_Calculator.runtimeconfig.dev.json
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\bin\Debug\netcoreapp2.0\RestWithAspNet_Calculator.dll
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\bin\Debug\netcoreapp2.0\RestWithAspNet_Calculator.pdb
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.csprojAssemblyReference.cache
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.csproj.CoreCompileInputs.cache
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.AssemblyInfoInputs.cache
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.AssemblyInfo.cs
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.dll
+D:\DEV\CURSO_REST_ASP_NET\RestWithAspNet_Calculator\RestWithAspNet_Calculator\obj\Debug\netcoreapp2.0\RestWithAspNet_Calculator.pdb
