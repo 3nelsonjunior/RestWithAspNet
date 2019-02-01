@@ -11,7 +11,7 @@ namespace RestWithAspNet02_UsingDiferentsVerbs.Services
         Person Create(Person person);
         Person FindById(long person);
         List<Person> FindAll();
-        Person Update(long person);
+        Person Update(Person person);
         void Delete(long id);
 
     }
