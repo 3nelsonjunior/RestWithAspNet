@@ -1,8 +1,5 @@
 ﻿using RestWithAspNet02_UsingDiferentsVerbs.Model;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace RestWithAspNet02_UsingDiferentsVerbs.Services
 {

@@ -1,18 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using RestWithAspNet02_UsingDiferentsVerbs.Model;
+using RestWithAspNet02_UsingDiferentsVerbs.Model.Context;
 
 namespace RestWithAspNet02_UsingDiferentsVerbs.Services.Implematattions
 {
     public class PersonServiceImpl : IPersonService
     {
+        private MySQLContext _context;
+
         private volatile int count;
+
+        public PersonServiceImpl(MySQLContext context)
+        {
+            _context = context;
+        }
 
         public Person Create(Person person)
         {
+            try
+            {
+                _context.Add(person);
+                _context.SaveChanges();
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
             return person;
         }
 
