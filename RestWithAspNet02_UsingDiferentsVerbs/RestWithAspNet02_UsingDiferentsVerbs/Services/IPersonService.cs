@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestWithAspNet02_UsingDiferentsVerbs.Services
 {
-    interface IPersonService
+    public interface IPersonService
     {
         Person Create(Person person);
         Person FindById(long person);
