@@ -9,3 +9,5 @@ CREATE TABLE persons (
  )
  ENGINE=InnoDB
  ;
+ 
+ SELECT * FROM persons;
