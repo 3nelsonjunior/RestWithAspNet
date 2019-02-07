@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RestWithAspNet02_UsingDiferentsVerbs.Services;
-using RestWithAspNet02_UsingDiferentsVerbs.Services.Implematattions;
+using RestWithAspNet02_UsingDiferentsVerbs.Business;
+using RestWithAspNet02_UsingDiferentsVerbs.Business.Implematattions;
+using RestWithAspNet02_UsingDiferentsVerbs.Repository;
+using RestWithAspNet02_UsingDiferentsVerbs.Repository.Implematattions;
 
 namespace RestWithAspNet02_UsingDiferentsVerbs
 {
@@ -26,7 +28,8 @@ namespace RestWithAspNet02_UsingDiferentsVerbs
             // add framework services
             services.AddMvc();
             // Dependency Injection
-            services.AddScoped<IPersonService, PersonServiceImpl>();
+            services.AddScoped<IPersonBusiness, PersonBusinessImpl>();
+            services.AddScoped<IPersonRepository, PersonRepositoryImpl>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
